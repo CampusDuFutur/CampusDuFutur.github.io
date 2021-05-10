@@ -18,8 +18,12 @@
 
 	<main>
 
-		<p>La on reconnais ta tete</p>
-
+		<button
+			class = "Bouton_login"
+			type = "button"
+			onclick = "window.location.href='index_campus.html';">
+			Acces au campus
+		</button>
 	</main>
 
 
