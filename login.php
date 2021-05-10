@@ -2,13 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Campus.css" />
 	<title>Campus v2</title>
 </head>
 <body>
 	<header>
 		<button
-			class = "Bouton_login"
+			class = "button"
 			type = "button"
 			onclick = "window.location.href='index.html';">
 			Retour
@@ -18,12 +18,15 @@
 
 	<main>
 
+
+		<p>La on reconnais ta tete peu etre</p>
 		<button
-			class = "Bouton_login"
+			class = "button"
 			type = "button"
-			onclick = "window.location.href='campus.html';">
-			Acces au campus
+			onclick = "window.location.href='campus.php';">
+			acces au campus
 		</button>
+
 	</main>
 
 
