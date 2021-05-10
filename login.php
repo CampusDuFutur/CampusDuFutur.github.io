@@ -21,7 +21,7 @@
 		<button
 			class = "Bouton_login"
 			type = "button"
-			onclick = "window.location.href='index_campus.html';">
+			onclick = "window.location.href='campus.html';">
 			Acces au campus
 		</button>
 	</main>
