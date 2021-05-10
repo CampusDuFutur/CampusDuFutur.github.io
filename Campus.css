@@ -1,0 +1,51 @@
+body {
+    margin: 10;
+}
+header, nav, footer, section, article, aside {
+	position: relative;
+	border: 3px solid #cccccc;
+	box-sizing: border-box;
+}
+span {
+	padding : 1px;
+	background-color: #cccccc;
+}
+header {
+	border: 3px solid #2196F3;
+	height: 80px;
+	text-indent: 300px;
+	background-image: url("LogoIsen.jpeg");
+	background-repeat: no-repeat;
+	background-position-x: 1200px;
+	background-position-y: 30px; 
+}
+header span {
+	background-color: #2196F3;
+}
+
+footer {
+	border: 3px solid #673AB7;
+	height: 50px;
+}
+footer span {
+	background-color: #673AB7;
+	color: #ffffff;
+}
+
+main {
+	border: 3px solid #009688;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+.button {
+	display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #7aa8b7;
+    border-radius: 6px;
+    outline: none;
+}
