@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-    <link rel="stylesheet" href="Campus.css" />
+    <link rel="stylesheet" href="campus.css" />
 	<title>Campus v2</title>
 </head>
 <body>
@@ -18,15 +18,12 @@
 
 	<main>
 
-
-		<p>La on reconnais ta tete peu etre</p>
 		<button
 			class = "button"
 			type = "button"
 			onclick = "window.location.href='campus.php';">
-			acces au campus
+			Acces au campus
 		</button>
-
 	</main>
 
 

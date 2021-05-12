@@ -17,18 +17,23 @@
 
 
 	<main>
-		<button
-		class = "button"
-		type = "button"
-		onclick = "window.location.href='Cours.php';">
-		Retour
-		</button>
-		<br>
-		 <?php
-    		session_start();
-    		$id_matiere='2';
-   			 include("acceBDD.php");  
-    		?>
+		<lu>
+			<li>
+				<button
+				class = "button"
+				type = "button"
+				onclick = "window.location.href='Cours.php';">
+				Retour
+				</button>		
+			</li>
+			<br>
+			<li>
+				 <?php
+		    		session_start();
+		    		$id_matiere='2';
+		   			 include("acceBDD.php");  
+		    		?>
+		    </li>
 
 	</main>
 

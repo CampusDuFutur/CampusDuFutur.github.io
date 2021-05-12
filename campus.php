@@ -17,21 +17,38 @@
 
 
 	<main>
+		<ul>
+			<li><button
+			class = "button"
+			type = "button"
+			onclick = "window.location.href='cours.php';">
+			Cours
+				</button>
+			</li>
+			<li><button
+			class = "button"
+			type = "button"
+			onclick = "window.location.href='Emplois_Du_Temps.php';">
+			Emplois du temps
+				</button>
+			</li>
+			<li><button
+			class = "button"
+			type = "button"
+			onclick = "window.location.href='Document.php';">
+			Documents
+				</button>
+			</li>
+		
 
-		<p>y'as tout pleins de trucs ici</p>
+		</ul>
 
 	</main>
 
 
-	<footer>
-		<p>
-			Prevost Guillaume
-			Lhomme Léo
-			Moucquet Quentin
-			Dumez Pirlouit
-			Philippe-Taylor Corentin
-		</p>
-	</footer>
+	<?php
+   			include("footer.php");  
+    		?>
 
 
 </body>

@@ -13,7 +13,7 @@
 		
 		while ($donnees = $reponse->fetch())
 		{
-			echo '<br />';
+			
 			echo '<button class = "button" type = "button">'.$donnees['Nom_Chapitre'];
 		}
 

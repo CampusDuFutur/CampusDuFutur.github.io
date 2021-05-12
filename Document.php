@@ -37,9 +37,10 @@
 
 		$reponse = $bdd->query("SELECT Nom_Matiere FROM matiere ");
 		
-		$acce = "'Maths.php'";
+		//$acce = "'Maths.php'";
 		while ($donnees = $reponse->fetch())
 		{
+			$acce = "$donnees.'.php'";
 			echo '<button class = "button" OnClick="window.location.href='.$acce.';">'.$donnees['Nom_Matiere'];
 		}
 		?>
